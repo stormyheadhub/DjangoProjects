@@ -21,13 +21,12 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('Checkbook.urls')),
     #Sets the url path to home page index.html.
     path('', views.home, name='index'),
     #Sets the url path to Create New Account page CreateNewAccount.html.
     path('create/', views.create_account, name='create'),
     #Sets the url path to Balance Sheet page BalanceSheet.html.
-    path('balance/', views.balance, name='balance'),
+    path('<int:pk>/balance/', views.balance, name='balance'),
     #Sets the url path to Add New Transaction page AddNewTransaction.html.
     path('transactions/', views.transactions, name='transactions')
 ]
