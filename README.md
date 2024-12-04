@@ -4,20 +4,20 @@ These are projects I completed using Python with Django for the Tech Academy Pro
 
 <b>Projects</b>
 <br>
-Calculator<br>
-TicTacToe game<br>
+<li>University Database</li><br>
+<li>Financial Ledger</li><br>
 
 <br>
 
 <ul>
-<li><b>Calculator</b></li>
+<b>University Database</b>
 <br>
-A simple but attractive calculator created with Javascript. 
+ A simple datatbase storing University names and locations with an assigned ID, utilizing Django with Python.
 <br>
 <br>
-<li><b>TicTacToe Game</b></li>
+<b>Financial Ledger</b>
 <br>
-An interactive game of TicTacToe created with Javascript.
+ An app recording financial transactions with an updated balance using Django with Python.
 <br>
 <br>
 
