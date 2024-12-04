@@ -1,6 +1,6 @@
-# Python_Projects
+# Django_Projects
 
-These are projects I completed using Python for the Tech Academy Program.
+These are projects I completed using Python with Django for the Tech Academy Program.
 
 <b>Projects</b>
 <br>
