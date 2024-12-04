@@ -12,7 +12,7 @@ These are projects I completed using Python with Django for the Tech Academy Pro
 <ul>
 <b>University Database</b>
 <br>
- A simple datatbase storing University names and locations with an assigned ID, utilizing Django with Python.
+ A simple database storing University names and locations with an assigned ID, utilizing Django with Python.
 <br>
 <br>
 <b>Financial Ledger</b>
