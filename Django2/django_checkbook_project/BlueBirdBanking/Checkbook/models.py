@@ -15,7 +15,10 @@ def __str__(self):
     return self.first_name + ' ' + self.last_name
 
 # Choices for a transaction
-TransactionTypes: [('Deposit', 'Deposit'), ('Withdrawal', 'Withdrawal')]
+TransactionTypes= [
+    ('Deposit', 'Deposit'),
+    ('Withdrawal', 'Withdrawal'),
+]
 
 # Creates the Transaction Model
 class Transaction(models.Model):
